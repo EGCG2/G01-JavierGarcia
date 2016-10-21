@@ -1,8 +1,10 @@
 package test;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
+
+import main.Sum;
 
 public class TestSum {
 
@@ -24,6 +26,6 @@ public class TestSum {
 	}
 	
 	int sum(int a, int b) {
-		return a+b;
+		return Sum.sum(a,b);
 	}
 }
