@@ -25,6 +25,11 @@ public class TestSubstraction {
 		assertEquals(-7, substract(-10, -3));
 	}
 	
+	@Test
+	public void testCommutativeProperty() {
+		assert(substract(5,3) != substract(3,5));
+	}
+	
 	int substract(int a, int b) {
 		return Substraction.substract(a,b);
 	}
