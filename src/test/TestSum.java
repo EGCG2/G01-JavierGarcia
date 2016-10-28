@@ -28,4 +28,9 @@ public class TestSum {
 	int sum(int a, int b) {
 		return Sum.sum(a,b);
 	}
+	
+	@Test
+	public void testSuma3Numeros() {
+		assertEquals(16, Sum.sum(4, 5, 7));
+	}
 }
