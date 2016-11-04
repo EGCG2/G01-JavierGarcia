@@ -10,7 +10,7 @@ public class TestMultiplication {
 
 	@Test
 	public void testMultiply2Numbers() {
-		assertEquals(6, Multiply(2,3));
+		assertEquals(12, Multiply(4,3));
 	}
 	
 	@Test
