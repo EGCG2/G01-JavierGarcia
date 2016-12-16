@@ -14,7 +14,7 @@
 	</dependencies> 
 
 	<build>
-		<sourceDirectory>./src</sourceDirectory>
-		<testSourceDirectory>./test</testSourceDirectory>
+		<sourceDirectory>./src/main</sourceDirectory>
+		<testSourceDirectory>./src/test</testSourceDirectory>
 	</build>
 </project>
